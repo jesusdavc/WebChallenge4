@@ -6,3 +6,21 @@
 html{
     font-size: 62.5%;
 }
+body{
+    font-size: 3.2rem;
+}
+.images-section{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/pattern-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-container{
+    margin-top: 3.5rem;
+    width: 62vw;
+}
+.image-person{
+    width: 100%;
+}
