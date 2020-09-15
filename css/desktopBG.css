@@ -3,4 +3,6 @@
 }
 .quote-section{
     background-position-y: 7.6rem;
+    position: relative;
+    left: 10.5rem;
 }

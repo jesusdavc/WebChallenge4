@@ -34,3 +34,7 @@ width: 40vw;
     background-position-x: 0;
     background-position-y: 0;
 }
+.buttons-section{
+    position: relative;
+    left: -11.4rem;
+}
