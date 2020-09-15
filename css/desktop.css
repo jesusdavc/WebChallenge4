@@ -1,0 +1,33 @@
+
+.main-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 65px;
+}
+.image-container {
+width: 40vw;
+}
+.images-section {
+    background-size: 100% 100%;
+    background-position-y: -1rem;
+}
+.image-person {
+    width: 86%;
+}
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: 10rem;
+    background-position-x: 62px;
+    background-position-y: 71px;
+    font-size: 3.2rem;
+}
+
+.pattern-curve-container {
+    min-height: 175px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
