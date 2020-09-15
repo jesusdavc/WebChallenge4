@@ -19,14 +19,14 @@ const Tanya = {
     position: 'UX Engineer',
     phrase:'“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ” '
 }
-const Tanya2 = {
-    avatar:'./images/image-tanya.jpg',
-    name: 'Tanya Sinclair2',
-    position: 'UX Engineer2',
-    phrase:'“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ” '
+const Jesus = {
+    avatar:'./images/image-jesus.jpeg',
+    name: 'Jesus',
+    position: 'JS Student',
+    phrase:'“I think that I am in the right way...Only have six months” '
 }
 
-const people = [Tanya, John, Tanya2]
+const people = [Tanya, John, Jesus]
 
 
 function nextSlide(){
@@ -45,14 +45,14 @@ function pastSlide(){
     }
     Slide(counter)
 }
-
-
-nextButton.addEventListener('click', nextSlide)
-prevButton.addEventListener('click', pastSlide)
-
 function Slide(a){
     image_person.src= people[a].avatar
     quote_autor_name.innerHTML = people[a].name
     quote_autor_position.innerHTML = people[a].position
     phrase.innerHTML = people[a].phrase
 }
+
+nextButton.addEventListener('click', nextSlide)
+prevButton.addEventListener('click', pastSlide)
+
+
