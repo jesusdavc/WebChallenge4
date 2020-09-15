@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin: 65px;
+    margin: 6.5rem;
 }
 .image-container {
 width: 40vw;
@@ -15,19 +15,22 @@ width: 40vw;
 .image-person {
     width: 86%;
 }
+.quote-autor__name, .quote-autor__career {
+    font-size: 2.5rem
+}
 .quote-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-size: 10rem;
-    background-position-x: 62px;
-    background-position-y: 71px;
+    background-position-x: 7.6rem;
+    background-position-y: 1.8rem;
     font-size: 3.2rem;
 }
 
 .pattern-curve-container {
-    min-height: 175px;
-    background-position-x: 0px;
-    background-position-y: 0px;
+    min-height: 17.5rem;
+    background-position-x: 0;
+    background-position-y: 0;
 }

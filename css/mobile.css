@@ -35,7 +35,7 @@ body{
 }
 .image-person{
     width: 100%;
-    box-shadow: 3px 13px 20px var(--DarkBlue);
+    box-shadow: 0.3rem 1.3rem 2rem var(--DarkBlue);
 }
 .buttons-section{
     display: flex;
@@ -45,7 +45,7 @@ body{
     min-width: 10rem;
     min-height: 4rem;
     border-radius: 2.5rem;
-    box-shadow: 3px 13px 20px var(--DarkBlue);
+    box-shadow: 0.3rem 1.3rem 2rem var(--DarkBlue);
 }
 .button-share{
     max-width: 1.2rem;
@@ -70,14 +70,18 @@ body{
 }
 .quote-autor__name, .quote-autor__career{
 font-size: 1.5rem;
+font-weight: 700;
+}
+.quote-autor__career{
+color: var(--GrayishBlue);
 }
 .pattern-curve-container{
     width: 100%;
-    min-height: 100px;
+    min-height: 10rem;
     background-size: contain;
     background-position: center;
-    background-position-x: 0px;
-    background-position-y: 15px;
+    background-position-x: 0;
+    background-position-y: 1,5rem;
     background-image: url(../images/pattern-curve.svg);
     background-repeat: no-repeat;
 }
