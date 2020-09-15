@@ -38,3 +38,6 @@ width: 40vw;
     position: relative;
     left: -11.4rem;
 }
+.button-share{
+    cursor: pointer;
+}
